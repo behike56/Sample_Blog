@@ -1,0 +1,214 @@
+/* 文字と要素の余白の初期設定  */
+body {
+    background-color: #efefef;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+
+/* ヘッダー部分の設定  */
+header {
+    margin-top: 0px;
+}
+
+.container {
+    position: relative;
+    width: 920px;
+    height: 180px;
+    margin: 0px auto 0px auto;
+    background-color: #fff;
+
+}
+
+.header-title-area {
+    width: 450px;
+    height: 80px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    margin: auto;
+}
+
+.logo {
+    font-size: 32px;
+    text-align: center;
+}
+
+/* ナビゲーション部分  */
+.header-navigation {
+    width: 920px;
+    background-color: #454545;
+    margin: 0px auto 0px auto;
+    padding: 20px 0px;
+}
+
+.header-navigation:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.header-navigation li {
+    float: left;
+    padding: 0px 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* コンテンツ部分＿共通 */
+.main{
+    padding:0px 0px 0px 0px;
+}
+
+.main:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+
+.card-contents {
+    height: 200px;
+    margin: 0 0 0 0;
+    padding: 10px 0px 0px 10px;
+}
+
+/* ２カラムに分ける指定  */
+.left-contents {
+    width: 620px;
+    height: 650px;
+    float: left;
+    padding: 30px 0px 0px 0px;
+    background-color: #fff;    
+    
+}
+
+.right-contents {
+    width: 300px;
+    height: 650px;      
+    float: right;
+    padding: 30px 0px 0px 0px;
+    background-color: #fff;
+}
+
+
+
+/* カラム左
+ * 記事部分の指定  
+ */
+.eye-image{
+    height: 190px;
+    width: 190px;
+    float: left;
+    margin-right:10px;
+}
+
+.eye-image img{
+    height: 100%;
+    width: 100%;
+    border: 5px #aaaaaa solid;
+}
+
+/* 
+ *各記事の諸情報  
+ */
+.article{
+    width: 600px;
+    height: 200px;
+}
+
+.article h2{
+    color: #2266aa;
+}
+
+.article p{
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* カラム右
+ *新着記事部分  
+ */
+
+.text-title {
+    font-size: 24px;
+    padding: 5px 0px 0px 0px;
+}
+
+.hr-two{
+    width:300px;
+}
+
+.new-contents{
+    width: 250px;
+    height: 60px ;
+    margin:0;
+    padding: 10px 0px 0px 10px;
+}
+
+.new-eye-image{
+    width:50px;
+    height:50px;
+    float: left;
+    margin-right: 5px;
+}
+
+.new-eye-image img{
+    height: 100%;
+    width: 100%;
+    border: 2px #aaaaaa solid;
+}
+
+.new-article{
+    width:290px;
+}
+
+.new-article h2{
+    font-size:15px;
+    color: #2266aa;
+}
+
+
+
+/* 
+ *フッター部分  
+ */
+footer{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footer-container{
+    width: 920px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+    background-color: #fff;
+}
+
+.hr-one{
+    width: 890px;
+    margin-top: 0px; 
+}
+
+.copyright {
+    color: #777;
+    text-align: center;
+}
